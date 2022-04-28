@@ -1,0 +1,10 @@
+var temperaturaKelvin = prompt("Dame la temperatura en Kelvin");
+console.log(temperaturaKelvin);
+var temperaturaKelvinNumero = parseInt(temperaturaKelvin);
+console.log(temperaturaKelvinNumero);
+var temperaturaCelsius = temperaturaKelvinNumero - 273;
+console.log(temperaturaCelsius);
+var temperaturaFahrenheit = ((9*temperaturaCelsius)/(5)) + 32;
+console.log(temperaturaFahrenheit);
+alert("TEMPKELVIN = " + temperaturaKelvinNumero);
+alert("TEMPFAHRENHEIT = " + temperaturaFahrenheit);
